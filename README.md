@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Funcionamiento
+La aplicacion funciona como SPA, teniendo un home, una pagina donde muestra los empleados consumiendo el servicio https://jsonplaceholder.typicode.com/users, y hay otra que toma un id consumiendo el mismo servicio pero agregando un id para filtrar.
+
+## Paquetes
+
+Los paquetes que usan en la aplicacion aparte de los predeterminados es bootstrap con jquery, popper para la presentacion de la pagina.
+
