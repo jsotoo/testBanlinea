@@ -1,0 +1,32 @@
+<table class="table table-hover animated fadeIn">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Name</th>
+      <th scope="col">Username</th>
+      <th scope="col">email</th>
+      <th scope="col">Address</th>
+      <th scope="col">Geolocation</th>
+      <th scope="col">Phone</th>
+      <th scope="col">WebSite</th>
+      <th scope="col">Company</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let empleado of empleados">
+      <th scope="row">{{empleado.id}}</th>
+      <td>{{empleado.name}}</td>
+      <td>{{empleado.username}}</td>
+      <td>{{empleado.email}}</td>
+      <td>{{empleado.address.street}} {{empleado.address.suite}} {{empleado.address.city}} {{empleado.address.zipcode}}</td>
+      <td>{{empleado.address.geo.lat}} {{empleado.address.geo.lng}}</td>
+      <td>{{empleado.phone}}</td>
+      <td>{{empleado.website}}</td>
+      <td>{{empleado.company.name}} {{empleado.company.catchPhrase}} {{empleado.company.bs}}</td>
+
+
+    </tr>
+
+  </tbody>
+</table>
