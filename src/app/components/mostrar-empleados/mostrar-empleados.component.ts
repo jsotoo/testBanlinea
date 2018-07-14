@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {empleadosService} from '../../services/empleados.service';
 import {HttpClient} from '@angular/common/http';
 
 @Component({
